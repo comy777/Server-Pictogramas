@@ -1,0 +1,24 @@
+{
+  "name": "pictogramasserver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^3.6.2",
+    "apollo-server-express": "^3.6.2",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.28.1",
+    "express": "^4.17.2",
+    "graphql": "^16.2.0",
+    "graphql-upload": "^13.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.8"
+  },
+  "devDependencies": {
+    "dotenv": "^14.3.0",
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "dev": "nodemon index.js"
+  }
+}

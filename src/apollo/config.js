@@ -19,6 +19,8 @@ const startServer = async () => {
 
   const app = express();
 
+  app.use(express.static("public"));
+
   // This middleware should be added before calling `applyMiddleware`.
   app.use(graphqlUploadExpress());
 

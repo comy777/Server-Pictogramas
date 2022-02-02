@@ -19,7 +19,7 @@
     "nodemon": "^2.0.15"
   },
   "scripts": {
-    "start": "node index",
+    "start": "node index.js",
     "dev": "nodemon index.js"
   }
 }
